@@ -1,0 +1,23 @@
+{
+  "name": "debuild-javascript",
+  "version": "1.0.0",
+  "description": "Re-implementing JavaScript built-in arrays and objects methods for educational purposes. Getting familiar with the way how they behind the scenes.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "test:watch": "node --test --watch src/**/**/test.js"
+  },
+  "keywords": [],
+  "author": "Ivan Atias",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "8.50.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-config-standard": "17.1.0",
+    "eslint-plugin-import": "2.28.1",
+    "eslint-plugin-n": "16.1.0",
+    "eslint-plugin-promise": "6.1.1",
+    "prettier": "3.0.3"
+  }
+}
